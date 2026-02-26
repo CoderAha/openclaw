@@ -38,7 +38,7 @@ Core/
 apps/ios/*.xcodeproj/
 apps/ios/*.xcworkspace/
 apps/ios/.swiftpm/
-vendor/
+# vendor/
 apps/ios/Clawdbot.xcodeproj/
 apps/ios/Clawdbot.xcodeproj/**
 apps/macos/.build/**
@@ -46,10 +46,10 @@ apps/macos/.build/**
 apps/ios/*.xcfilelist
 
 # Vendor build artifacts
-vendor/a2ui/renderers/lit/dist/
-src/canvas-host/a2ui/*.bundle.js
-src/canvas-host/a2ui/*.map
-.bundle.hash
+# vendor/a2ui/renderers/lit/dist/
+# src/canvas-host/a2ui/*.bundle.js
+# src/canvas-host/a2ui/*.map
+# .bundle.hash
 
 # fastlane (iOS)
 apps/ios/fastlane/README.md
