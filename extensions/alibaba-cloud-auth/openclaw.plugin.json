@@ -1,0 +1,9 @@
+{
+  "id": "alibaba-cloud-auth",
+  "providers": ["alibaba-cloud"],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {}
+  }
+}
